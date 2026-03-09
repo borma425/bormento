@@ -1,0 +1,48 @@
+/* 
+  Premium Filament Theme overrides 
+  Inspired by high-end SaaS designs (Violet & Glassmorphism)
+*/
+
+/* Modal Overrides */
+.fi-modal-window {
+    border-radius: 1.5rem !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(139, 92, 246, 0.2) !important;
+    box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.25) !important;
+}
+
+.fi-modal-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+    padding-bottom: 1rem !important;
+}
+
+/* Curator Gallery UI */
+.curator-picker-grid-item {
+    border-radius: 1rem !important;
+    overflow: hidden !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.curator-picker-grid-item:hover {
+    transform: scale(1.05) translateY(-5px) !important;
+    box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.3) !important;
+}
+
+/* Button & Action Styling */
+.fi-btn-color-success {
+    background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%) !important;
+    border: none !important;
+    box-shadow: 0 4px 6px -1px rgba(139, 92, 246, 0.4) !important;
+}
+
+.fi-btn-color-success:hover {
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%) !important;
+    transform: translateY(-1px) !important;
+}
+
+/* Premium Navigation Group Icons */
+.fi-sidebar-item-active {
+    background: rgba(139, 92, 246, 0.1) !important;
+    border-right: 4px solid #8b5cf6 !important;
+}
